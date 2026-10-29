@@ -1,0 +1,25 @@
+test_attack_text_validation_and_line_numbers (test_experiment_io.ExperimentIOTests.test_attack_text_validation_and_line_numbers) ... ok
+test_invalid_json_schema (test_experiment_io.ExperimentIOTests.test_invalid_json_schema) ... ok
+test_vector_file_roundtrip_and_bom (test_experiment_io.ExperimentIOTests.test_vector_file_roundtrip_and_bom) ... ok
+test_wrong_result_is_reported_with_actual_values (test_experiment_io.ExperimentIOTests.test_wrong_result_is_reported_with_actual_values) ... ok
+test_all_mix_and_shift_states (test_saes.SaesTests.test_all_mix_and_shift_states) ... ok
+test_all_substitution_values (test_saes.SaesTests.test_all_substitution_values) ... ok
+test_appendix_key_expansion (test_saes.SaesTests.test_appendix_key_expansion) ... ok
+test_ascii_padding_and_control_characters (test_saes.SaesTests.test_ascii_padding_and_control_characters) ... ok
+test_attack_cancel_and_empty (test_saes.SaesTests.test_attack_cancel_and_empty) ... ok
+test_attack_full_space_and_collision_retention (test_saes.SaesTests.test_attack_full_space_and_collision_retention) ... ok
+test_cbc_recurrence (test_saes.SaesTests.test_cbc_recurrence) ... ok
+test_cbc_tampering_propagation (test_saes.SaesTests.test_cbc_tampering_propagation) ... ok
+test_double_order (test_saes.SaesTests.test_double_order) ... ok
+test_encryption_and_decryption_traces (test_saes.SaesTests.test_encryption_and_decryption_traces) ... ok
+test_full_plaintext_space (test_saes.SaesTests.test_full_plaintext_space) ... ok
+test_invalid_inputs (test_saes.SaesTests.test_invalid_inputs) ... ok
+test_public_input_types_are_checked (test_saes.SaesTests.test_public_input_types_are_checked) ... ok
+test_published_known_answer (test_saes.SaesTests.test_published_known_answer) ... ok
+test_triple_both_key_sizes (test_saes.SaesTests.test_triple_both_key_sizes) ... ok
+test_varying_keys (test_saes.SaesTests.test_varying_keys) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 7.034s
+
+OK

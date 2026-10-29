@@ -1,0 +1,156 @@
+[
+  {
+    "source_attachment": "codex-clipboard-b11a96fb-01bc-4cca-8e3a-1957579759b3.png",
+    "saved_path": "02_测试结果/第1关_基础加解密/01_基础加密.png",
+    "status": "有效运行证据",
+    "description": "D728 / 4AF5 → 24EC，含逐轮过程",
+    "sha256": "80187e52cce58629c95823d78fa8d2b1041b41f0b86ec3d2d0ffcf826103374d"
+  },
+  {
+    "source_attachment": "codex-clipboard-78a6490b-39ce-4708-9de1-0334f9aa7eaf.png",
+    "saved_path": "02_测试结果/第1关_基础加解密/02_基础解密.png",
+    "status": "有效运行证据",
+    "description": "24EC / 4AF5 → D728",
+    "sha256": "f871441b6ae9a702206533581eafcd4524213c66c8c124ec50b5c074721d1d86"
+  },
+  {
+    "source_attachment": "codex-clipboard-3666831a-042d-4e14-8336-b752fc4325d5.png",
+    "saved_path": "02_测试结果/第2关_互操作验证/01_导出测试向量.png",
+    "status": "功能运行记录",
+    "description": "测试向量导出；不证明对方已运行",
+    "sha256": "24567373c46d7c7843663afcbef0d607c1dbb94b44e7570aa74d19476ff4a466"
+  },
+  {
+    "source_attachment": "codex-clipboard-9fe29d7a-1615-43cc-ab37-e7265c791491.png",
+    "saved_path": "02_测试结果/第2关_互操作验证/02_导入向量验证.png",
+    "status": "本机验证证据",
+    "description": "4 项向量验证通过；来源及对方记录未确认",
+    "sha256": "2591ed4c039e9e4da3a44a2f0570b26b522d4888a17f94710d25160d8dc399c0"
+  },
+  {
+    "source_attachment": "codex-clipboard-13c9f116-77e6-4fcb-a9e7-14a5467ac122.png",
+    "saved_path": "02_测试结果/第3关_字符消息/01_ASCII加密.png",
+    "status": "有效运行证据",
+    "description": "Hello S-AES! 加密为 14 字节",
+    "sha256": "46e3bc535dd9a6dad6ca160934c108c78aed9ca93aa255c01d20457ca041fd06"
+  },
+  {
+    "source_attachment": "codex-clipboard-bede4e27-68e0-4035-9a3d-bf525e3ce0b4.png",
+    "saved_path": "02_测试结果/第3关_字符消息/02_ASCII解密.png",
+    "status": "有效运行证据",
+    "description": "解密恢复 Hello S-AES!；解密读取下方 HEX 框",
+    "sha256": "921f1d8da15c9ac3a8bb937cd273d03e2ac42c92ea8249d8337f7cfda3005376"
+  },
+  {
+    "source_attachment": "codex-clipboard-f66ee3f3-2561-47fc-b26d-3a3d9462339b.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/01_双重加密.png",
+    "status": "有效运行证据",
+    "description": "D728 → 657D，K1=4AF5、K2=DD28",
+    "sha256": "e97a4a0f89b837e34b075ad04fbfd3438bfc0722507d05c1528cac5b64f573d7"
+  },
+  {
+    "source_attachment": "codex-clipboard-673db7af-60ea-431b-8131-b44d281c73bb.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/02_双重解密.png",
+    "status": "有效运行证据",
+    "description": "657D → D728",
+    "sha256": "699fb588c70f9069528b29b4455072414e648a60066481cbdfb5811013919e4a"
+  },
+  {
+    "source_attachment": "codex-clipboard-87142c58-b9f6-47a1-822c-ccb363e5da94.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/03_三重32位加密.png",
+    "status": "有效运行证据",
+    "description": "12FA → 8483，EEE 双密钥方案",
+    "sha256": "2d1860a0ec805ac0b816d97be635611ea40ccf758d391d4e15bd9127f4de6c29"
+  },
+  {
+    "source_attachment": "codex-clipboard-34091c2b-c766-49ae-9332-6254096d5ac3.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/04_三重32位解密.png",
+    "status": "有效运行证据",
+    "description": "8483 → 12FA",
+    "sha256": "ab9e6314007ee63aaca41438d63790d2adbd9b77c06efa3408fcd0b032a2b32c"
+  },
+  {
+    "source_attachment": "codex-clipboard-415fb05e-cdef-4f06-8b18-a04a5d2cff95.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/05_攻击输入与真实密钥.png",
+    "status": "演示准备记录",
+    "description": "三对已知明密文；真实密钥用于对照",
+    "sha256": "193e7f96e91bbd62531522e55a9b6c570bb091fc0040581d9b1dcdf0abafce41"
+  },
+  {
+    "source_attachment": "codex-clipboard-fb77e56c-0356-4db0-9ba3-0703e516cb89.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/06_中间相遇搜索结果.png",
+    "status": "有效运行证据",
+    "description": "候选 1 对，4AF5 / DD28，实际截图耗时 1.805 秒",
+    "sha256": "21912eaaab08e8ad7b9f46540dedc1fcb6b771ccec353ea63f1aae6f1170840d"
+  },
+  {
+    "source_attachment": "codex-clipboard-2c48168b-1ef4-49ae-a5e0-140be37b28ea.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/补充记录/07_模式下拉菜单.png",
+    "status": "补充画面",
+    "description": "菜单处于展开状态，不能证明已执行 48 位模式",
+    "sha256": "dbe1515bb0bb63680bcd7367ce7f4f0c4fd3ed9500bd5a365a0ce3058f6eb281"
+  },
+  {
+    "source_attachment": "codex-clipboard-60ad56e9-5384-4bd1-9893-fc6c3d79f957.png",
+    "saved_path": "02_测试结果/第4关_多重与密钥恢复/补充记录/08_重复的32位解密.png",
+    "status": "重复画面",
+    "description": "与前一张 32 位三重解密重复，原样保留",
+    "sha256": "ab9e6314007ee63aaca41438d63790d2adbd9b77c06efa3408fcd0b032a2b32c"
+  },
+  {
+    "source_attachment": "codex-clipboard-584f44a6-aa05-47bd-b0eb-f99e4c3b5f28.png",
+    "saved_path": "02_测试结果/第5关_CBC篡改实验/01_CBC加密.png",
+    "status": "有效运行证据",
+    "description": "固定 IV=1234，三块明文加密",
+    "sha256": "6591d3f296529f13d2bf49c1ffe376c9d2c92b2ab2dfd40bdf313c6675470be1"
+  },
+  {
+    "source_attachment": "codex-clipboard-71e19382-f6a4-44ef-b772-a5da837cc917.png",
+    "saved_path": "02_测试结果/第5关_CBC篡改实验/02_CBC正常解密.png",
+    "status": "有效运行证据",
+    "description": "原文全部恢复，XOR 差分全零",
+    "sha256": "f9ba0f02f68349211b3b0e6876101c260d1548810675a8ae3964099760b8a432"
+  },
+  {
+    "source_attachment": "codex-clipboard-40199701-ffc6-4cda-b520-16408c07259f.png",
+    "saved_path": "02_测试结果/第5关_CBC篡改实验/03_CBC篡改对比.png",
+    "status": "有效运行证据",
+    "description": "P1 改变 5 位，P2 改变 1 位，P3 不变",
+    "sha256": "1a6658e6c1885277247c85e8f8ef677fb456ed01134d49eeab51353852904bbc"
+  },
+  {
+    "source_attachment": "codex-clipboard-4087e37c-ef46-458f-a00d-8154c8e44d2e.png",
+    "saved_path": "02_测试结果/第5关_CBC篡改实验/补充记录/04_修改IV后未重新计算.png",
+    "status": "非结果证据",
+    "description": "IV 字段已变化，下方仍是旧结果，不用于验证当前 IV",
+    "sha256": "d0f87d48bd1904664b5b2c78d3393fb01e91cc80f02d3651f1037f4978f32b28"
+  },
+  {
+    "source_attachment": "codex-clipboard-f28a6743-6dd5-4d27-aeac-eb37fe0f04dc.png",
+    "saved_path": "03_相关文档/课程要求备查/01_课程作业概览.png",
+    "status": "课程原始要求",
+    "description": "用户提供的课程截图",
+    "sha256": "4186fbd724e9dc1b16bf0eaef399a68fa134103e5f8e2d093786b2ca4d692d1f"
+  },
+  {
+    "source_attachment": "codex-clipboard-dd90c5cb-1100-4ff9-9269-7342f504eef2.png",
+    "saved_path": "03_相关文档/课程要求备查/02_五关任务要求.png",
+    "status": "课程原始要求",
+    "description": "用户提供的课程截图",
+    "sha256": "8fcf14a450e6e1ca3554884c0f564419e38da0eafced0cd992e5d2d30c9d9915"
+  },
+  {
+    "source_attachment": "codex-clipboard-a335de64-5d5d-45ba-832a-aeb1cea1c66a.png",
+    "saved_path": "03_相关文档/课程要求备查/03_代码规范与提交要求.png",
+    "status": "课程原始要求",
+    "description": "用户提供的课程截图",
+    "sha256": "7a49b44d5ebce2029e2995332ed8d9205ca07fdc929a4b5d7b052cc935fbd5e8"
+  },
+  {
+    "source_attachment": "codex-clipboard-6470cab2-1293-4de1-a815-4dea94e4a9c4.png",
+    "saved_path": "03_相关文档/课程要求备查/04_交付顺序要求.png",
+    "status": "课程原始要求",
+    "description": "用户提供的课程截图",
+    "sha256": "7268724c5f13ca014eadb55dc65d64925955ffe56eca696c528bd120972c0b79"
+  }
+]
